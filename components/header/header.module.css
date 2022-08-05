@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
+
+.header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
+  margin-bottom: 54px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.navigation > li > a:hover {
+  color: #b621fe;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.auth {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.auth__btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  background: #b621fe;
+  border: none;
+  z-index: 1;
+}
+
+.auth__btn:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.auth__btn:hover {
+  color: #fff;
+}
+.auth__btn:hover:after {
+  left: 0;
+  width: 100%;
+}
+.auth__btn:active {
+  top: 2px;
+}
+
+.btn__text {
+  margin: 0 auto;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.registr__btn {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #ffffff;
+}
+.registr__btn:hover {
+  color: #b621fe;
+  transition: 0.4s;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 981px) {
+  .navigation {
+    display: none;
+  }
+  .auth {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    background: linear-gradient(
+      176.75deg,
+      #6444c0 2.69%,
+      rgba(255, 255, 255, 0) 570.17%
+    );
+    border: 1px solid #7000ff;
+    transform: rotate(-30.71deg);
+    width: 66.93px;
+    height: 66.08px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
