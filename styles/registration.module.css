@@ -1,0 +1,174 @@
+.container {
+    max-width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 229, 179, 0.45) 0%,
+      rgba(255, 175, 19, 0.65) 32.51%,
+      rgba(234, 55, 238, 0.203775) 60.45%,
+      rgba(0, 0, 0, 0) 135.61%
+    );
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .logo {
+    font-family: "Genos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 240px;
+  
+    color: #ffffff;
+  }
+  
+  .group {
+    position: relative;
+    margin-bottom: 45px;
+  }
+  .input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 380px;
+    border: none;
+    border-radius: 5px;
+  }
+  .input:focus {
+    outline: none;
+  }
+  
+  /* LABEL ======================================= */
+  .label {
+    color: #999;
+    font-size: 25px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  /* active state */
+  .input:focus ~ .label,
+  .input:valid ~ .label {
+    top: -20px;
+    font-size: 19px;
+    color: #5264ae;
+  }
+  
+  /* BOTTOM BARS ================================= */
+  .bar {
+    position: relative;
+    display: block;
+    width: 380px;
+  }
+  .bar:before,
+  .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  .bar:before {
+    left: 50%;
+  }
+  .bar:after {
+    right: 50%;
+  }
+  
+  /* active state */
+  .input:focus ~ .bar:before,
+  .input:focus ~ .bar:after {
+    width: 50%;
+  }
+  
+  /* HIGHLIGHTER ================================== */
+  .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  /* active state */
+  .input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+  }
+  
+  /* ANIMATIONS ================ */
+  @-webkit-keyframes inputHighlighter {
+    from {
+      background: #5264ae;
+    }
+    to {
+      width: 0;
+      background: transparent;
+    }
+  }
+  @-moz-keyframes inputHighlighter {
+    from {
+      background: #5264ae;
+    }
+    to {
+      width: 0;
+      background: transparent;
+    }
+  }
+  @keyframes inputHighlighter {
+    from {
+      background: #5264ae;
+    }
+    to {
+      width: 0;
+      background: transparent;
+    }
+  }
+  
+  .button {
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 380px;
+    box-sizing: border-box;
+    height: 67px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button__text {
+    font-family: "Genos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    /* identical to box height */
+  
+    color: #000000;
+    margin: 0 auto;
+  }
+  
+  .registr__text {
+    font-family: "Gemunu Libre";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+  
+    color: #000000;
+  }

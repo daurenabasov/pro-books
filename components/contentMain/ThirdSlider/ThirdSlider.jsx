@@ -3,7 +3,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import styles
-import s from "./Slider.module.css";
+import s from "./thirdSlider.module.css";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
@@ -63,7 +63,8 @@ export default function App() {
         <SwiperSlide className={s.slider}>
           <Image src={UdalenniyServer} alt="img" width={311} height={450} />
           <p className={s.name__book}>
-            Удаленный сервер своими руками.  <br /> От азов до практической работы
+            Удаленный сервер своими руками. <br /> От азов до практической
+            работы
           </p>
           <span className={s.author__book}>Левицкий Н. Д.</span>
           <div className={s.price}>1000 сом</div>

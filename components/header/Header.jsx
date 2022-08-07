@@ -30,7 +30,7 @@ const Header = () => {
               <DropDown />
             </li>
             <li>
-              <Link href="">
+              <Link href="/#about__container">
                 <a>О нас</a>
               </Link>
             </li>
@@ -45,7 +45,7 @@ const Header = () => {
         <nav>
           <ul className={s.auth}>
             <li>
-              <Link href="/">
+              <Link href="/Auth">
                 <a>
                   <button className={s.auth__btn}>
                     <p className={s.btn__text}>Sign up</p>
@@ -54,7 +54,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/Registration">
                 <a className={s.registr__btn}>Sign in</a>
               </Link>
             </li>

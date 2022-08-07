@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Russo+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+
+#about__container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.about__title {
+  color: #090b16;
+  font-family: "Russo One", sans-serif;
+  font-size: 100px;
+  -webkit-text-stroke: 0.6px #b240ff;
+  letter-spacing: 20px;
+}
+
+.about__text {
+  font-size: 2vw;
+  line-height: 130%;
+  text-align: left;
+  color: #ffff;
+  padding-top: 40px;
+  font-family: 'Changa', sans-serif;
+  margin-left: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .about__text{
+        font-size: 25px;
+    }    
+}
