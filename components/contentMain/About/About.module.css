@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Russo+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap");
 
 #about__container {
   max-width: 100%;
@@ -21,12 +21,32 @@
   text-align: left;
   color: #ffff;
   padding-top: 40px;
-  font-family: 'Changa', sans-serif;
+  font-family: "Changa", sans-serif;
   margin-left: 50%;
 }
 
 @media screen and (max-width: 768px) {
-    .about__text{
-        font-size: 25px;
-    }    
+  .about__text {
+    font-size: 25px;
+  }
+}
+
+.image__container {
+  max-width: 780px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image__title {
+  color: hsla(0, 0%, 78%, 0.3);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-left: 40px;
+  letter-spacing: 20px;
+}
+
+
+.about__line {
+  color: hsla(0, 0%, 78%, 0.3);
+
 }
