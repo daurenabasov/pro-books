@@ -31,6 +31,8 @@
   width: 380px;
   border: none;
   border-radius: 5px;
+  /* border: purple solid 5px; */
+
 }
 .input:focus {
   outline: none;

@@ -6,6 +6,7 @@ import Slider from "../components/contentMain/Slider/Slider";
 import SecondSlider from "../components/contentMain/SecondSlider/SecondSlider";
 import ThirdSlider from "../components/contentMain/ThirdSlider/ThirdSlider";
 import About from "../components/contentMain/About/About";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <SecondSlider />
         <ThirdSlider />
         <About />
+        <Footer />
       </div>
     </>
   );

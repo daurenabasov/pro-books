@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Russo+One&display=swap");
+
+.footer__container {
+  max-width: 100%;
+  height: 40rem;
+  background-color: #000000;
+  border: 5px solid none;
+  margin: 0 auto;
+}
+
+.footer__logo {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+}
+.about {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 188.52%;
+
+  /* text-align: center; */
+  letter-spacing: 0.185em;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 188.52%;
+  letter-spacing: 0.185em;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  margin-top: 10rem;
+}

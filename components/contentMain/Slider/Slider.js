@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -7,6 +8,11 @@ import s from "./Slider.module.css";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
+
+//import framer-motion
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useAnimation } from "framer-motion";
 
 // import ImagesBooks
 import Image from "next/image";
@@ -18,8 +24,8 @@ import UdalenniyServer from "/public/udalenniyServer.png";
 
 export default function App() {
   return (
-    <>
-      <h1 className={s.title__swiper}>Популярные книги</h1>
+    <div>
+      <motion.h1 className={s.title__swiper}>Популярные книги</motion.h1>
       <Swiper
         slidesPerView={4}
         spaceBetween={-20}
@@ -63,12 +69,13 @@ export default function App() {
         <SwiperSlide className={s.slider}>
           <Image src={UdalenniyServer} alt="img" width={311} height={450} />
           <p className={s.name__book}>
-            Удаленный сервер своими руками.  <br /> От азов до практической работы
+            Удаленный сервер своими руками. <br /> От азов до практической
+            работы
           </p>
           <span className={s.author__book}>Левицкий Н. Д.</span>
           <div className={s.price}>1000 сом</div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
