@@ -60,10 +60,7 @@ const Header = () => {
             </li>
           </ul>
 
-      <div className={s.burger}>
-  
-      </div>
-
+          <div className={s.burger}></div>
         </nav>
       </header>
     </div>
