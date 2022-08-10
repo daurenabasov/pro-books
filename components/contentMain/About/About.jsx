@@ -21,13 +21,13 @@ const About = () => {
         </div>
         <div className={s.image__container}>
           <div className={s.fisrt__image__contant}>
-            <Image
+            {/* <Image
               className={s.second__img}
               src={secondImg}
               alt="img"
               width={258.55}
               height={470.09}
-            />
+            /> */}
             {/* <span className={s.image__title}>Создаём будущее</span> */}
             <div className={s.about__firstText}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores

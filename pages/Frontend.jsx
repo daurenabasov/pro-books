@@ -1,54 +1,17 @@
 import React, { useState } from "react";
-import Header from "../components/header/Header";
-
-//import styles
-import s from "../styles/frontend.module.css";
+import axios from "axios";
 
 const Frontend = () => {
-  const books = [
-    {
-      name: "zalupa",
-      price: 20,
-      description: "zaaasepqwep",
-    },
-    {
-      name: "zalupa",
-      price: 20,
-      description: "zaaasepqwep",
-    },
-    {
-      name: "zalupa",
-      price: 20,
-      description: "zaaasepqwep",
-    },
-    {
-      name: "zalupa",
-      price: 20,
-      description: "zaaasepqwep",
-    },
-  ];
+  const [data, setData] = useState([]);
 
-  const [value, setValue] = useState("");
-  const filterBooks = books.filter((data) => {
-    return data.name.toLocaleLowerCase().includes(value.toLocaleLowerCase());
-  });
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get("../data/books.json");
+    }
+    fetchData();
+  }, [data]);
 
-  return (
-    <div>
-      <Header />
-      <form className="search-form">
-        <input
-          className="search"
-          type="search"
-          placeholder="Напишите название книги"
-          onChange={(event) => setValue(event.target.value)}
-        />
-      </form>
-      {filterBooks.map((game) => {
-        return <GameItem key={game.id} game={game} />;
-      })}
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Frontend;

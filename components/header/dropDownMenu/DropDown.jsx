@@ -10,9 +10,9 @@ import Frontend from '../../../pages/Frontend';
 const DropDown = () => {
     return (
         <div>
-            <div class={s.dropdown}>
-                <span class={s.dropbtn}>Категория</span>
-                <div class={s.dropdown__content}>
+            <div className={s.dropdown}>
+                <span className={s.dropbtn}>Категория</span>
+                <div className={s.dropdown__content}>
                     <Link href="/Frontend"><a>Frontend</a></Link>
                     <Link href="/Backend"><a> Backend</a></Link>
                     <Link href="/Mobile"><a>Mobile dev</a></Link>
