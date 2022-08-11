@@ -7,9 +7,10 @@ import SecondSlider from "../components/contentMain/SecondSlider/SecondSlider";
 import ThirdSlider from "../components/contentMain/ThirdSlider/ThirdSlider";
 import About from "../components/contentMain/About/About";
 import Footer from "../components/footer/Footer";
+// import { useSelector } from "react-redux";
 
 export default function Home() {
-  return (
+  return ( 
     <>
       <Head>
         <title>Book shop</title>

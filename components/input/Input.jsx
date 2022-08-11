@@ -14,6 +14,7 @@ const Input = (props) => {
                 type={props.type}
                 placeholder={props.placeholder}
                 value={props.value} />
+
         </div>
     );
 };

@@ -1,18 +1,28 @@
+// import styles
 import s from "/styles/registration.module.css";
+// import framer-motion
 import { motion } from "framer-motion";
+// import next
 import Link from "next/link";
+
+// import Components
 import Input from "../components/input/Input";
+
+// import react
 import { useState } from "react";
+
+// import redux components
 import { registration } from "../redux/actions/user";
 
-
 const Auth = () => {
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-
-  const [username, setUsername] = useState('')
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    registration(username, email, password);
+  };
 
   return (
     <>
@@ -25,36 +35,52 @@ const Auth = () => {
         >
           <Link href="/">
             <a>
-              <div className={s.logo}>Books</div>
+              <div className={s.logo}>Регистрация</div>
             </a>
           </Link>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className={s.group}>
-              <Input value={username} setValue={setUsername} type="text" placeholder="" />
+              <span className={s.label}>Введите ваше имя</span>
+              <Input
+                value={username}
+                setValue={setUsername}
+                type="text"
+                placeholder=""
+              />
 
               <span className={s.highlight}></span>
               <span className={s.bar}></span>
-              <label className={s.label}>Name</label>
             </div>
 
             <div className={s.group}>
-              <Input value={email} setValue={setEmail} type="email" placeholder="" />
+              <span className={s.label}>Введите ваш Gmail</span>
+
+              <Input
+                value={email}
+                setValue={setEmail}
+                type="email"
+                placeholder=""
+              />
 
               <span className={s.highlight}></span>
               <span className={s.bair}></span>
-              <label className={s.label}>Email</label>
             </div>
             <div className={s.group}>
-              <Input value={password} setValue={setPassword} type="password" placeholder="" />
+              <span className={s.label}>Введите ваш пароль</span>
+
+              <Input
+                value={password}
+                setValue={setPassword}
+                type="password"
+                placeholder=""
+              />
 
               <span className={s.highlight}></span>
               <span className={s.bair}></span>
-              <label className={s.label}>Password</label>
             </div>
-
 
             <button className={s.button}>
-              <p className={s.button__text} onClick={() => registration(username, email, password)}>Войти</p>
+              <p className={s.button__text}>Войти</p>
             </button>
 
             <Link href="/Auth">
@@ -70,4 +96,3 @@ const Auth = () => {
 };
 
 export default Auth;
-

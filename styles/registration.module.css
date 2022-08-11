@@ -12,7 +12,7 @@
   font-family: "Genos";
   font-style: normal;
   font-weight: 400;
-  font-size: 140px;
+  font-size: 70px;
   line-height: 240px;
 
   color: #ffffff;
@@ -41,13 +41,6 @@
   color: #999;
   font-size: 25px;
   font-weight: normal;
-  position: absolute;
-  pointer-events: none;
-  left: 5px;
-  top: 10px;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all;
 }
 
 /* active state */

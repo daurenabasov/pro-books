@@ -1,13 +1,20 @@
 // import next
 import Link from "next/link";
-import { useState } from "react";
-import DropDown from "./dropDownMenu/DropDown";
 import Image from "next/image";
+// import react
+import { useState } from "react";
+// import components
+import DropDown from "./dropDownMenu/DropDown";
+// import images
 import Logo from "../../public/logo.png";
 // import styles
 import s from "./header.module.css";
+import { useSelector, useDispatch } from "react-redux";
+import { logout  } from "../../redux/reducers/userReducer";
 
 const Header = () => {
+  const inAuth = useSelector((state) => state.user.sAuth);
+  const dispatch = useDispatch();
   return (
     <div>
       <header className={s.header}>
@@ -41,24 +48,34 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-
         <nav>
-          <ul className={s.auth}>
-            <li>
-              <Link href="/Auth">
-                <a>
-                  <button className={s.auth__btn}>
-                    <p className={s.btn__text}>Sign up</p>
-                  </button>
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/Registration">
-                <a className={s.registr__btn}>Sign in</a>
-              </Link>
-            </li>
-          </ul>
+          {!inAuth ? (
+            <ul className={s.auth}>
+              <li>
+                <Link href="/Auth">
+                  <a>
+                    <button className={s.auth__btn}>
+                      <p className={s.btn__text}>Sign up</p>
+                    </button>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/Registration">
+                  <a className={s.registr__btn}>Sign in</a>
+                </Link>
+              </li>
+            </ul>
+          ) : (
+            <>
+              <button
+                className={s.auth__btn}
+                onClick={() => dispatch(logout())}
+              >
+                <p className={s.btn__text}>log out</p>
+              </button>
+            </>
+          )}
 
           <div className={s.burger}></div>
         </nav>
