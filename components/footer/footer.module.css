@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Russo+One&display=swap");
 
-.footer__container {
+#footer__container {
   max-width: 100%;
   height: 40rem;
   background-color: #000000;

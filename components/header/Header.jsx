@@ -4,13 +4,13 @@ import Image from "next/image";
 // import react
 import { useState } from "react";
 // import components
-import DropDown from "./dropDownMenu/DropDown";
+import Catalog from '../../pages/Catalog'
 // import images
 import Logo from "../../public/logo.png";
 // import styles
 import s from "./header.module.css";
 import { useSelector, useDispatch } from "react-redux";
-import { logout  } from "../../redux/reducers/userReducer";
+import { logout } from "../../redux/reducers/userReducer";
 
 const Header = () => {
   const inAuth = useSelector((state) => state.user.sAuth);
@@ -34,7 +34,7 @@ const Header = () => {
             </li>
 
             <li>
-              <DropDown />
+              <Link href="/Catalog"><a>Каталог</a></Link>
             </li>
             <li>
               <Link href="/#about__container">

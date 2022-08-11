@@ -16,7 +16,7 @@ import About from '../contentMain/About/About'
 const Footer = () => {
   return <div>
 
-    <footer className={s.footer__container}>
+    <footer id={s.footer__container}>
 
       <div className={s.footer__logo}>
         <Image src={Logo} alt="img" width={405} height={120} />
@@ -26,7 +26,11 @@ const Footer = () => {
         <nav>
           <ul className={s.about}>
             <h1><Link href="#about__container"><a>About</a></Link></h1>
-            <li>Github repo</li>
+            <li>
+              <Link href="https://github.com/daurenabasov/books-shop"><a>
+                Github repo
+              </a></Link>
+            </li>
             <li>Slack</li>
           </ul>
         </nav>
@@ -48,17 +52,6 @@ const Footer = () => {
             <li>Style Guide</li>
             <li>Licenses</li>
             <li>Changelog</li>
-          </ul>
-        </nav>
-        <nav>
-          <ul className={s.about}>
-            <h1>Template</h1>
-            <li>Instructions</li>
-            <li>Style Guide</li>
-            <li>Licenses</li>
-            <li>Changelog</li>
-            <li>About</li>
-            <li>Home</li>
           </ul>
         </nav>
       </div>
