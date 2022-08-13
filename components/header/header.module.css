@@ -113,7 +113,7 @@
 }
 
 .burger {
-  display: none;
+  /* display: none; */
 }
 
 @media screen and (max-width: 981px) {
@@ -123,7 +123,7 @@
   .auth {
     display: none;
   }
-
+  
   .burger {
     display: block;
     background: linear-gradient(

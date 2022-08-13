@@ -76,11 +76,27 @@
   letter-spacing: 20px;
 }
 
-.second__img::before {
-  display: inline-block;
-  content: "";
-  border-top: 0.3rem solid white;
-  width: 4rem;
-  margin: 0 1rem;
-  transform: translateY(-1rem);
+@media screen and (max-width: 669px) {
+  .fisrt__image__contant {
+    display: flex;
+    flex-direction: column;
+  }
+  .second__img {
+    display: none;
+  }
+
+  .about__firstText {
+    font-size: 30px;
+    max-width: 100%;
+  }
+
+  .vertical__title {
+    color: #090b16;
+    font-family: "Russo One", sans-serif;
+    font-size: 60px;
+    -webkit-text-stroke: 0.6px #b240ff;
+    letter-spacing: 20px;
+    writing-mode: horizontal-tb;
+  }
 }
+

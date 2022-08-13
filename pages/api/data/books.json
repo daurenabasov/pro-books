@@ -7,7 +7,7 @@
     "authors": [1],
     "publication_date": "Неизвестно",
     "genre": 1,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_21-12-29_ss8LxDb.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/books/photo_2022-08-09_21-12-29.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "authors": [2],
     "publication_date": "2020",
     "genre": 1,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-04-24_03-42-55.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-04-24_03-42-55.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "authors": [3],
     "publication_date": "2021",
     "genre": 1,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-06-02_17-45-37.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-06-02_17-45-37.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "authors": [4],
     "publication_date": "2018",
     "genre": 1,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_22-44-01.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_22-44-01.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "authors": [5],
     "publication_date": "2018",
     "genre": 1,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_22-45-27.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_22-45-27.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "authors": [6],
     "publication_date": "2018",
     "genre": 2,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_22-48-02.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_22-48-02.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "authors": [7],
     "publication_date": "2021",
     "genre": 4,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_22-53-18.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_22-53-18.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "authors": [8],
     "publication_date": "2020",
     "genre": 4,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_22-58-56.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_22-58-56.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "authors": [9],
     "publication_date": "2021",
     "genre": 4,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-14-12.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-14-12.jpg"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "authors": [10, 11],
     "publication_date": "2018",
     "genre": 4,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-18-08.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-18-08.jpg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "authors": [12, 13],
     "publication_date": "2020",
     "genre": 4,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-20-16.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-20-16.jpg"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "authors": [14],
     "publication_date": "2006",
     "genre": 5,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-22-30.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-22-30.jpg"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "authors": [15, 16, 17, 18, 19],
     "publication_date": "2020",
     "genre": 5,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-24-30.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-24-30.jpg"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "authors": [20],
     "publication_date": "2020",
     "genre": 5,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-25-35.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-25-35.jpg"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "authors": [21],
     "publication_date": "2020",
     "genre": 5,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-26-38.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-26-38.jpg"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "authors": [22, 23, 24],
     "publication_date": "2019",
     "genre": 5,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-29-01.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-29-01.jpg"
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "authors": [25],
     "publication_date": "2019",
     "genre": 2,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-32-38.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-32-38.jpg"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "authors": [28],
     "publication_date": "2020",
     "genre": 2,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-35-02.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-35-02.jpg"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "authors": [29],
     "publication_date": "2016",
     "genre": 2,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-37-29.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-37-29.jpg"
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "authors": [30],
     "publication_date": "2021",
     "genre": 2,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-38-51.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-38-51.jpg"
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "authors": [32],
     "publication_date": "2021",
     "genre": 3,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-40-12.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-40-12.jpg"
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "authors": [33],
     "publication_date": "2020",
     "genre": 3,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-41-09.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-41-09.jpg"
   },
   {
     "id": 23,
@@ -227,7 +227,7 @@
     "authors": [34],
     "publication_date": "2019",
     "genre": 3,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-42-49.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-42-49.jpg"
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "authors": [35],
     "publication_date": "2020",
     "genre": 3,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-45-30.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-45-30.jpg"
   },
   {
     "id": 25,
@@ -247,6 +247,6 @@
     "authors": [36],
     "publication_date": "2020",
     "genre": 3,
-    "oblojka": "/final_project/shop/media/internet_shop/shop/media/photo_2022-08-09_23-46-52.jpg"
+    "image_url": "https://285d-212-112-122-214.in.ngrok.io/media/internet_shop/shop/media/photo_2022-08-09_23-46-52.jpg"
   }
 ]

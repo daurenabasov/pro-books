@@ -38,7 +38,6 @@
   place-items: center;
   letter-spacing: 4px;
   margin-top: 40px;
-
 }
 
 .banner__title {
@@ -65,4 +64,18 @@
   .banner__text {
     max-width: 100%;
   }
+}
+
+.name__book {
+  display: none;
+}
+.author__book {
+  display: none;
+}
+.price {
+  display: none;
+}
+
+.name__book__long {
+  display: none;
 }

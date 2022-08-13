@@ -65,6 +65,22 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 1385px) {
+  .name__book {
+    display: none;
+  }
+  .author__book {
+    display: none;
+  }
+  .price {
+    display: none;
+  }
+
+  .name__book__long {
+    display: none;
+  }
+}
+
 .name__book__long {
   font-family: "Roboto";
   font-style: normal;

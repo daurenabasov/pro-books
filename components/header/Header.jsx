@@ -11,6 +11,7 @@ import Logo from "../../public/logo.png";
 import s from "./header.module.css";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "../../redux/reducers/userReducer";
+import Burger from "../Burger/Burger";
 
 const Header = () => {
   const inAuth = useSelector((state) => state.user.sAuth);
@@ -77,7 +78,10 @@ const Header = () => {
             </>
           )}
 
-          <div className={s.burger}></div>
+          <div className={s.burger}>
+            <Burger />
+
+          </div>
         </nav>
       </header>
     </div>

@@ -7,6 +7,8 @@ import s from "./thirdSlider.module.css";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
+// import framer-motion
+import { motion } from "framer-motion";
 
 // import ImagesBooks
 import Image from "next/image";
@@ -19,7 +21,15 @@ import UdalenniyServer from "/public/udalenniyServer.png";
 export default function App() {
   return (
     <>
-      <h1 className={s.title__swiper}>Популярные книги</h1>
+      <motion.h1
+        className={s.title__swiper}
+        initial={{ x: 200, opacity: 0 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.4, duration: 1 }}
+      >
+        Популярные книги
+      </motion.h1>
       <Swiper
         slidesPerView={4}
         spaceBetween={-20}

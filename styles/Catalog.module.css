@@ -1,6 +1,6 @@
-.title {
+.cards__content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
 }

@@ -85,7 +85,7 @@ const Auth = () => {
 
             <Link href="/Auth">
               <a>
-                <h1 className={s.registr__text}> У вас нет аккаунта ?</h1>
+                <h1 className={s.registr__text}> У вас есть аккаунт ?</h1>
               </a>
             </Link>
           </form>

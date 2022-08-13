@@ -25,7 +25,14 @@ import UdalenniyServer from "/public/udalenniyServer.png";
 export default function App() {
   return (
     <div>
-      <motion.h1 className={s.title__swiper}>Популярные книги</motion.h1>
+      <motion.h1
+        className={s.title__swiper}
+        initial={{ x: 200, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ delay: 0.4, duration: 1 }}
+      >
+        Популярные книги
+      </motion.h1>
       <Swiper
         slidesPerView={4}
         spaceBetween={-20}

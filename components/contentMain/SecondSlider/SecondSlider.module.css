@@ -75,3 +75,19 @@
   color: #ffffff;
   width: 340px;
 }
+
+@media screen and (max-width: 1385px) {
+  .name__book {
+    display: none;
+  }
+  .author__book {
+    display: none;
+  }
+  .price {
+    display: none;
+  }
+
+  .name__book__long {
+    display: none;
+  }
+}
