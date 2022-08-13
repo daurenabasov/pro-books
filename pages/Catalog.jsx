@@ -10,15 +10,11 @@ import s from "../styles/Catalog.module.css";
 import BookItem from "../components/cardBook/BookItem";
 import axios from "axios";
 
-
 const Catalog = () => {
-  const [value, setValue] = useState('')
-  const [books, setBooks] = useState([])
+ 
+  const [books, setBooks] = useState([]);
 
 
-  const filterBook = books.filter(book => {
-    return book.name.toLowerCase().includes(value.toLocaleLowerCase())
-  })
   const booksShopCards = [
     {
       id: 1,
@@ -329,20 +325,12 @@ const Catalog = () => {
       {booksShopCards.map((book) => {
         return (
           <>
-            <form className="search-form">
-              <input
-                className="search"
-                type="search"
-                placeholder="Напишите название книги..."
-                onChange={(event) => setValue(event.target.value)}
-              />
-            </form>
-            {filterBook.map((book) => {
-              return (
-                <BookItem book={book} key={book.id} />
+            {booksShopCards.map((book) => {
+              return(
+                <BookItem book={book.name} key={book.id} />
               )
+            
             })}
-
           </>
         );
       })}

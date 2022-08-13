@@ -12,7 +12,8 @@ const BookItem = ({ book }) => {
     return (
         <div className={s.content__container}>
             <div className={s.card__container}>
-                <div ><CardImage image_url={book.image_url} /></div>
+                {/* <CardImage image={image_url}/> */}
+                <Image src={book.image_url} alt="img" width={311} height={450}/>
                 <span className={s.card__name}>{book.name}</span>
                 <span className={s.card__price}>{book.price}</span>
                 <Link href="">
