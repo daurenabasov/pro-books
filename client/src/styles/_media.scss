@@ -1,0 +1,43 @@
+@mixin desktop() {
+  @media (max-width: $breakpoint-xxl) {
+    @content;
+  }
+}
+
+/*
+* Пример
+*   @include desktop {
+    header {
+        max-width: 80px
+    }
+
+}
+*
+*
+*
+* 
+*/
+
+@mixin laptop() {
+  @media (max-width: $breakpoint-xl) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media (max-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin mobile-large() {
+  @media (max-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin mobile-small() {
+  @media (max-width: $breakpoint-s) {
+    @content;
+  }
+}
