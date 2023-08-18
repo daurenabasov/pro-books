@@ -1,43 +1,41 @@
-@mixin desktop() {
-  @media (max-width: $breakpoint-xxl) {
-    @content;
-  }
-}
-
+@import 'variables';
 /*
-* Пример
-*   @include desktop {
-    header {
-        max-width: 80px
-    }
-
-}
-*
-*
-*
-* 
+* Mobile (480px)
+* Extra small devices (481px and 767px)
+* Small tablets (768px and 991px)
+* Large tablets/laptops ( 992px and 1199px)
+* Desktops (1200px and 1919px)
+* Extra large screens (1920px)
 */
 
-@mixin laptop() {
-  @media (max-width: $breakpoint-xl) {
+@mixin mobile() {
+  @media (min-width: $breakpoint-s) and (max-width: $breakpoint-sm) {
     @content;
   }
 }
 
-@mixin tablet() {
-  @media (max-width: $breakpoint-md) {
+@mixin extra-small-devices() {
+  @media (min-width: $breakpoint-sm) and (width: $breakpoint-md) {
     @content;
   }
 }
 
-@mixin mobile-large() {
-  @media (max-width: $breakpoint-sm) {
+@mixin tablets() {
+  @media (min-width: $breakpoint-md) and (width: $breakpoint-xl) {
     @content;
   }
 }
 
-@mixin mobile-small() {
-  @media (max-width: $breakpoint-s) {
+@mixin laptops() {
+  @media (min-width: $breakpoint-xl) and (max-width: $breakpoint-xxl) {
     @content;
   }
 }
+
+@mixin desktops() {
+  @media (min-width: $breakpoint-xxl) and (max-width: $content-width) {
+    @content;
+  }
+};
+
+

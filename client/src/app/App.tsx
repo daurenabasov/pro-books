@@ -1,5 +1,5 @@
-import Layout from "./layout/Layout";
-import { Routing } from "./routes/Routing";
+import Layout from './layout/Layout';
+import { Routing } from './routes/Routing';
 
 const App = () => {
   return (
